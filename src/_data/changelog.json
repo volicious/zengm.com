@@ -1,5 +1,21 @@
 [
 	{
+		"version": "2026.07.25.0916",
+		"text": "Updated real players rosters so you can start a league at the 2027 preseason.",
+		"links": [
+			"https://www.reddit.com/r/BasketballGM/comments/1v6h870/version_202607250916_updated_real_players_rosters/"
+		],
+		"basketball": true
+	},
+	{
+		"version": "2026.07.22.0528",
+		"text": "Updated default schedule length to 84 games and default salary cap to $105M.",
+		"links": [
+			"https://www.reddit.com/r/ZenGMHockey/comments/1v3f8s7/version_202607220528_updated_default_schedule/"
+		],
+		"hockey": true
+	},
+	{
 		"version": "2026.07.15.0836",
 		"text": "When you sign a free agent or release a re-signing player, you can undo the action in case you made a mistake.",
 		"links": [
