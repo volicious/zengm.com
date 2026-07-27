@@ -1,5 +1,24 @@
 [
 	{
+		"version": "2026.07.27.0551",
+		"text": "Punters now try to pin the other team inside the 20 rather than just kicking it as hard as they can every time, based on the punting accuracy rating. Also added TB% and In20% stats.",
+		"links": [
+			"https://www.reddit.com/r/Football_GM/comments/1v800ws/version_202607270551_punters_now_try_to_pin_the/"
+		],
+		"football": true
+	},
+	{
+		"version": "2026.07.27.0551",
+		"text": "Added settings to disable some very rare events (Easter egg players and fake ages).",
+		"links": [
+			"https://www.reddit.com/r/BasketballGM/comments/1v800sy/version_202607270551_added_settings_to_disable/"
+		],
+		"baseball": true,
+		"basketball": true,
+		"football": true,
+		"hockey": true
+	},
+	{
 		"version": "2026.07.25.0916",
 		"text": "Updated real players rosters so you can start a league at the 2027 preseason.",
 		"links": [
