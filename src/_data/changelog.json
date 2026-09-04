@@ -1,5 +1,18 @@
 [
 	{
+		"version": "2026.09.03.1242",
+		"text": "Extremely customizable awards and many other award features.",
+		"links": [
+			"/blog/2026/09/extremely-customizable-awards/",
+			"https://www.reddit.com/r/BasketballGM/comments/1w6pht6/version_202609031242_extremely_customizable/"
+		],
+		"baseball": true,
+		"basketball": true,
+		"football": true,
+		"hockey": true,
+		"big": true
+	},
+	{
 		"version": "2026.07.27.0551",
 		"text": "Punters now try to pin the other team inside the 20 rather than just kicking it as hard as they can every time, based on the punting accuracy rating. Also added TB% and In20% stats.",
 		"links": [
