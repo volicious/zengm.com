@@ -1,5 +1,16 @@
 [
 	{
+		"version": "2026.09.14.0542",
+		"text": "Improved simulation performance by about 10%.",
+		"links": [
+			"https://www.reddit.com/r/BasketballGM/comments/1wg2u2q/version_202609140542_improved_simulation/"
+		],
+		"baseball": true,
+		"basketball": true,
+		"football": true,
+		"hockey": true
+	},
+	{
 		"version": "2026.09.03.1242",
 		"text": "Extremely customizable awards and many other award features.",
 		"links": [
