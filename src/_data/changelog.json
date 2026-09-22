@@ -1,5 +1,21 @@
 [
 	{
+		"version": "2026.09.22.0930",
+		"text": "Fewer late-game non-shooting fouls when tied or up by 1-2 points.",
+		"links": [
+			"https://www.reddit.com/r/BasketballGM/comments/1wnjffb/version_202609220930_fewer_lategame_nonshooting/"
+		],
+		"basketball": true
+	},
+	{
+		"version": "2026.09.22.0930",
+		"text": "When penalties add yards to the end of the play, the play and penalty yardages are shown in separate colors on the drive chart.",
+		"links": [
+			"https://www.reddit.com/r/Football_GM/comments/1wnjflv/version_202609220930_when_penalties_add_yards_to/"
+		],
+		"football": true
+	},
+	{
 		"version": "2026.09.21.1203",
 		"text": "The simulation engine is now about twice as fast.",
 		"links": [
