@@ -5,7 +5,7 @@ date: 2026-09-03
 tags:
   - post
   - Awards
-  - Custoimzation
+  - Customization
   - Settings
 ---
 

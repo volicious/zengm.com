@@ -1,5 +1,18 @@
 [
 	{
+		"version": "2026.09.21.1203",
+		"text": "The simulation engine is now about twice as fast.",
+		"links": [
+			"/blog/2026/09/twice-as-fast/",
+			"https://www.reddit.com/r/BasketballGM/comments/1wmtvtn/version_202609211203_the_simulation_engine_is_now/"
+		],
+		"baseball": true,
+		"basketball": true,
+		"football": true,
+		"hockey": true,
+		"big": true
+	},
+	{
 		"version": "2026.09.14.0542",
 		"text": "Improved simulation performance by about 10%.",
 		"links": [
