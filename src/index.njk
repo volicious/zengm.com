@@ -73,18 +73,42 @@ ul {
 	color: inherit;
 	background-color: var(--bg-1);
 }
-.flagship:hover img {
-	animation-play-state: running;
-}
-.flagship img {
-	animation: spin 2s linear infinite;
-	animation-play-state: paused;
-	height: 64px;
-	width: 64px;
-}
 .flagship h2 {
 	font-size: 24px;
 	margin-bottom: 0;
+}
+
+.logo-spinner {
+	/* Each spinner sets --logo-spinner-frames and --logo-spinner-duration itself. */
+	--logo-spinner-size: 64px;
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: middle;
+	width: var(--logo-spinner-size);
+	height: var(--logo-spinner-size);
+}
+.logo-spinner img {
+	display: block;
+	max-width: none;
+	width: calc(var(--logo-spinner-size) * var(--logo-spinner-frames));
+	height: var(--logo-spinner-size);
+	animation: logo-spinner var(--logo-spinner-duration)
+		steps(var(--logo-spinner-frames)) infinite;
+	animation-play-state: paused;
+}
+.flagship:hover .logo-spinner img {
+	animation-play-state: running;
+}
+@media (prefers-reduced-motion: reduce) {
+	.logo-spinner img {
+		/* Stay on the first frame */
+		animation: none;
+	}
+}
+@keyframes logo-spinner {
+	to {
+		transform: translateX(-100%);
+	}
 }
 
 .face {
@@ -145,25 +169,33 @@ ul {
 				<div class="row">
 					<div class="col-12 col-sm-6 col-xxl-3">
 						<a class="flagship d-flex align-items-center border border-secondary rounded p-2" href="/basketball/">
-							<img src="https://play.basketball-gm.com/ico/icon.svg" class="me-3 flex-shrink-0" alt="">
+							<span class="logo-spinner me-3" style="--logo-spinner-duration: 4s; --logo-spinner-frames: 80">
+								<img src="https://play.basketball-gm.com/ico/spinner.svg" alt="">
+							</span>
 							<h2>Basketball GM</h2>
 						</a>
 					</div>
 					<div class="col-12 col-sm-6 mt-3 mt-sm-0 col-xxl-3">
 						<a class="flagship d-flex align-items-center border border-secondary rounded p-2" href="/football/">
-							<img src="https://play.football-gm.com/ico/icon.svg" class="me-3 flex-shrink-0" alt="">
+							<span class="logo-spinner me-3" style="--logo-spinner-duration: 2s; --logo-spinner-frames: 40">
+								<img src="https://play.football-gm.com/ico/spinner.svg" alt="">
+							</span>
 							<h2>Football GM</h2>
 						</a>
 					</div>
 					<div class="col-12 col-sm-6 mt-3 mt-xxl-0 col-xxl-3">
 						<a class="flagship d-flex align-items-center border border-secondary rounded p-2" href="/baseball/">
-							<img src="https://baseball.zengm.com/ico/icon.svg" class="me-3 flex-shrink-0" alt="">
+							<span class="logo-spinner me-3" style="--logo-spinner-duration: 2s; --logo-spinner-frames: 40">
+								<img src="https://baseball.zengm.com/ico/spinner.svg" alt="">
+							</span>
 							<h2>ZenGM Baseball</h2>
 						</a>
 					</div>
 					<div class="col-12 col-sm-6 mt-3 mt-xxl-0 col-xxl-3">
 						<a class="flagship d-flex align-items-center border border-secondary rounded p-2" href="/hockey/">
-							<img src="https://hockey.zengm.com/ico/icon.svg" class="me-3 flex-shrink-0" alt="">
+							<span class="logo-spinner me-3" style="--logo-spinner-duration: 1.5s; --logo-spinner-frames: 30">
+								<img src="https://hockey.zengm.com/ico/spinner.svg" alt="">
+							</span>
 							<h2>ZenGM Hockey</h2>
 						</a>
 					</div>
